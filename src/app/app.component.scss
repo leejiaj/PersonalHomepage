@@ -1,0 +1,36 @@
+.content{
+    display: flex;
+    flex-direction: row;
+}
+
+.sidenav{
+    float: left;
+    flex: 15%;
+    position: fixed;
+    margin-top: 100px;
+}
+
+.maincontent{
+    margin-left: 200px;
+    margin-top: 50px;
+    float: right;
+    flex: 70%;
+}
+
+@media (max-width: 768px) {
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+    .sidenav{
+        flex: 100%;
+        margin: auto;
+        position: relative;
+    }
+    
+    .maincontent{
+        margin-left: 0;
+        flex: 100%;
+    }
+}
+

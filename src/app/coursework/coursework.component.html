@@ -1,0 +1,19 @@
+<section>          
+    <ul>
+      <li *ngFor="let courseworkstructure of courseworks">
+        <div class="thumbnail">
+          <h4><span class="badge">{{courseworkstructure.id}}</span> {{courseworkstructure.title}}</h4>
+          <a routerLink="/courseworkdetail/{{courseworkstructure.id}}" class="coursework"> 
+            <img src={{courseworkstructure.imageurl1}} alt="courseworkimage">     
+            <div class="caption">
+              <p>{{courseworkstructure.title}}</p>
+            </div>
+            <span><em>Coursename: {{courseworkstructure.coursename}}</em></span>     
+            <p class="shortdesc">{{courseworkstructure.shortdescription}}</p>
+          </a>
+        </div>
+      </li>
+    </ul>
+</section>
+    
+    

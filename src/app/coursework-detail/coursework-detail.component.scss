@@ -1,0 +1,46 @@
+.main{
+    flex: 50%; 
+    max-width: 50%;
+    float: left;
+    text-align: justify;
+    margin-left: 50px;
+    line-height: 2em;
+    // margin: 20px;
+    // padding: 20px;
+}
+
+.sideimage {
+    flex: 40%; 
+    max-width: 40%;
+    float: right;
+    text-align: justify;
+    margin-right: 10px;
+}
+
+
+@media (max-width: 768px) {
+    .main{
+        flex: 100%; 
+        max-width: 100%;
+        text-align: justify;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .sideimage {
+        flex: 100%; 
+        max-width: 100%;
+        text-align: justify;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+.description{
+    white-space: pre-wrap;
+}
+
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+  }

@@ -1,0 +1,25 @@
+.aboutdescription {
+    margin: 10px;
+    padding: 10px;
+    display: block; 
+    line-height: 2em;    
+    // border: 2px solid #50faab;
+    // border-radius: 34px;
+  }
+
+  
+a{  
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+}
+
+main {
+	position: relative;
+	overflow: hidden;
+	border: 1px solid rgba(255,255,255,.3);
+	margin: 10px;
+	padding: 10px;
+	background: rgba(255,255,255,.1);
+	background: linear-gradient( rgba(255,255,255,.3), rgba(255,255,255,.07) 15% );
+	border-radius: 5px;
+}

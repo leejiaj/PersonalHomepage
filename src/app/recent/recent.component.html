@@ -1,0 +1,46 @@
+<article>          
+    <ul>
+      <li *ngFor="let recentstructure of recents">
+        <div class="thumbnail">
+          <h4> {{recentstructure.title}}</h4>
+            <img src={{recentstructure.imageurl1}} alt="recentimage">  
+            <div class="caption">
+              <p>{{recentstructure.title}}</p>
+            </div>  
+            <p class="desc">{{recentstructure.description}}</p>
+        </div>
+      </li>
+    </ul>
+</article>
+ 
+    
+
+<!-- <article>
+    <section class="recentdescription">
+        <h4>
+            Artificial Intelligence Conference
+        </h4>
+        <p>
+            Attended Artificial Intelligence Conference conducted by the Department of Computer Science, 
+            University of Texas at Dallas on 19th May 2018. The conference included hands on workshop on 
+            Data Science Visualization Techniques by Tarry Singh, founder and AI Neuroscience Researcher 
+            at deepkapha.ai. Also as part of conference attended below technical talks:
+        </p>
+    </section>
+    <section class="recentdescription">
+        <ul>
+            <li>
+                Deep Learning for the masses, Tarry Singh, founder & AI Neuroscience Researcher at deepkapha.ai
+            </li>
+            <li>
+                Coding Computer Vision Model in 45 minutes - Deep Learning on GPUs, Pablo Marin, Microsoft
+            </li>
+            <li>
+                Scaling Deep Learning AI beyond experimentation to deployment at scale, Mandeep Kumar, deepcognition.ai
+            </li>
+        </ul>
+    </section>
+              
+</article>
+
+   -->
