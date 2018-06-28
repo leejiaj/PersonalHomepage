@@ -5,7 +5,7 @@
 // $font-stack: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 $font-stack: 'Comic Sans MS','Chiller',Verdana;
 $primary-color: rgb(0, 0, 0);
-$color_one: rgb(31, 230, 164);
+$color_one: #28cb28;
 $color_two: #fff;
 
 html{
@@ -14,7 +14,7 @@ html{
 
 body {
   font: 100% $font-stack !important;
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 15px !important;
   // background-color: $primary-color;
   background: linear-gradient(to bottom right, #28cb28,#2838c8);
@@ -50,7 +50,7 @@ body {
 }
 
 // .neon_box{
-//   box-shadow:   0 0 5px $color_two,
+//   box-shadow:   0 0 5px $color_one,
 //                 inset 0 0 5px $color_two,
 //                 0 0 20px $color_one,
 //                 inset 0 0 20px $color_one;
