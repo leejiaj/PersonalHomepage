@@ -27,32 +27,7 @@ body {
 }
 
 
-nav {
-  text-align: left;
-  display: flex;
-  flex-direction: column;
 
-  a {
-      padding: 5px 10px;
-      text-decoration: none !important;
-      margin: 30px;
-      display: inline-block;
-      color: rgb(0, 0, 0);
-      font-weight: 700;
-      // font-family: cursive;
-      font-family: 'Comic Sans MS','Chiller',Verdana;  
-      font-size: 16px;
-    }
-
-  a:hover {
-    color: $color_two;
-  }
-
-  a.active {
-  color: $color_two;
-  }
-
-}
 
 // section {
 //   margin: 20px;
@@ -64,43 +39,7 @@ nav {
 //   border-radius: 34px;
 // }
 
-blockquote {
-	width: 75%;
-  margin: auto;
-  text-align: center;
-	line-height: 1.3em;
-  color: $color_two;
-  font-size: 1.2em;
-  position: relative;
-  border: 0px;
-  transition: transform text-shadow 4s ease;
-}
 
-blockquote::before{
-    content: '\201c';
-    font-size: 2.2em;
-    position: absolute;
-    margin-left: -20px;
-    color: rgba(255,255,255,.4)
-}
-
-blockquote::after{
-    content: '\201d';
-    font-size: 2.2em;
-    position: absolute;
-    // margin-right: 20px;
-    // bottom: -15px;
-    color: rgba(255,255,255,.4)
-}
-
-blockquote:hover{
-  transform: scale(1.1,1.1);
-  text-shadow: -2px -2px 10px $color_two,
-  2px 2px 10px $color_two,
-  0 0 20px $color_one,
-  0 0 40px $color_one,
-  0 0 60px $color_one;
-}
 
 .neon_text{
   text-shadow: -2px -2px 10px $color_two,

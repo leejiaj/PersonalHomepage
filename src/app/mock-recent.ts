@@ -4,7 +4,7 @@ export const RECENTS: Recentstructure[] = [
     
     {
         id: 1,
-        title: 'Personal Homepage - Mid May - Mid June, 2018',
+        title: 'Personal Homepage - May 28 - June, 2018',
         description: 'This webpage is created using Angular 6. Thanks to Angular 6, git, GitHub and Heroku.',
         imageurl1: './assets/logoleejia.png',
         imageurl2: './assets/Tulips.jpg',

@@ -1,3 +1,6 @@
+
+$color_one: #50faab;
+$color_two: #fff;
 .homedesc {
     // background-color: white;
     // color: black;
@@ -20,3 +23,41 @@
     background: linear-gradient( rgba(255,255,255,.3), rgba(255,255,255,.07) 15% );
     border-radius: 5px;
   }
+
+  blockquote {
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    line-height: 1.3em;
+    color: $color_two;
+    font-size: 1.2em;
+    position: relative;
+    border: 0px;
+    // transition: transform text-shadow 4s ease;
+  }
+  
+  // blockquote::before{
+  //     content: '\201c';
+  //     font-size: 2.2em;
+  //     position: absolute;
+  //     margin-left: -20px;
+  //     color: rgba(255,255,255,.4)
+  // }
+  
+  // blockquote::after{
+  //     content: '\201d';
+  //     font-size: 2.2em;
+  //     position: absolute;
+  //     // margin-right: 20px;
+  //     // bottom: -15px;
+  //     color: rgba(255,255,255,.4)
+  // }
+  
+  // blockquote:hover{
+  //   // transform: scale(1.1,1.1);
+  //   text-shadow: -2px -2px 10px $color_two,
+  //   2px 2px 10px $color_two,
+  //   0 0 20px $color_one,
+  //   0 0 40px $color_one,
+  //   0 0 60px $color_one;
+  // }
