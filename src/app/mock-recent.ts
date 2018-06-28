@@ -1,6 +1,17 @@
 import { Recentstructure } from './recentstructure';
 
 export const RECENTS: Recentstructure[] = [
+    
+    {
+        id: 1,
+        title: 'Personal Homepage - Mid May - Mid June, 2018',
+        description: 'This webpage is created using Angular 6. Thanks to Angular 6, git, GitHub and Heroku.',
+        imageurl1: './assets/logoleejia.png',
+        imageurl2: './assets/Tulips.jpg',
+        imageurl3: './assets/Tulips.jpg',
+        imageurl4: './assets/Tulips.jpg',
+        imageurl5: './assets/Tulips.jpg'
+    },
     {
         id: 1,
         title: 'No Code Web App Development - Talk & Demo - June 13, 2018',
