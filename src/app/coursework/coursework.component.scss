@@ -13,6 +13,9 @@ a.coursework > span em {
 a.coursework:hover > span em {
     color: rgb(0, 0, 0);
 }
+a.coursework > p {  
+    display: inline;
+}
 
 section {
     margin: 10px 0 0 0;
@@ -29,26 +32,28 @@ img {
     margin: 0 !important;
 }
 
-a.coursework > p {  
-    display: inline;
-}
-
 .thumbnail{
-    background-color: #e1fdff;
+    background-color: #9ef2f5;
     transition: background-color 0.25s ease;
     margin: 20px;
     padding: 20px;
     display: block; 
     line-height: 2em;
-    border: 2px solid #c4fdff;
+    border: 2px solid #9ef2f5;
     border-radius: 34px;
     color: #000;
 }
 
 .thumbnail:hover{
-    background-color: #9ef2f5 !important;
+    background-color: #46b4b8 !important;
 }
 
 .shortdesc{
     white-space: pre-wrap;
+}
+
+.readMore{
+    color: white;
+    border: 1px white solid;
+    background-color: #000;
 }
