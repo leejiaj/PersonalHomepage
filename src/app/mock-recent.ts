@@ -28,10 +28,10 @@ export const RECENTS: Recentstructure[] = [
         description: 'Familiarizing with the tools and frameworks that make web developers workflow more productive and efficient - helping us code faster and cleaner than before.\n'+
         '\n'+
         'Through this course learned about:\n'+
-        '*      Browser tools for analyzing and testing the code\n'+
-        '*      Text editors that help to write the code\n'+
-        '*      Shortcuts and tools for automating repetitive web dev tasks\n'+
-        '*      How version control systems like Git actually help save the time, in addition to saving us from mistakes',
+        '* Browser tools for analyzing and testing the code\n'+
+        '* Text editors that help to write the code\n'+
+        '* Shortcuts and tools for automating repetitive web dev tasks\n'+
+        '* How version control systems like Git actually help save the time, in addition to saving us from mistakes',
         imageurl1: './assets/WorkflowToolsforWebDevelopers1.PNG',
         imageurl2: './assets/Tulips.jpg',
         imageurl3: './assets/Tulips.jpg',
@@ -42,9 +42,9 @@ export const RECENTS: Recentstructure[] = [
         id: 1,
         title: 'Artificial Intelligence Conference - May 19, 2018',
         description: 'Attended Artificial Intelligence Conference conducted by the Department of Computer Science, University of Texas at Dallas on 19th May 2018. The conference included hands on workshop on Data Science Visualization Techniques by Tarry Singh, founder and AI Neuroscience Researcher at deepkapha.ai. Also as part of conference attended below technical talks:\n'+
-        '*      Deep Learning for the masses, Tarry Singh, founder & AI Neuroscience Researcher at deepkapha.ai\n'+
-        '*      Coding Computer Vision Model in 45 minutes - Deep Learning on GPUs, Pablo Marin, Microsoft\n'+
-        '*      Scaling Deep Learning AI beyond experimentation to deployment at scale, Mandeep Kumar, deepcognition.ai',
+        '* Deep Learning for the masses, Tarry Singh, founder & AI Neuroscience Researcher at deepkapha.ai\n'+
+        '* Coding Computer Vision Model in 45 minutes - Deep Learning on GPUs, Pablo Marin, Microsoft\n'+
+        '* Scaling Deep Learning AI beyond experimentation to deployment at scale, Mandeep Kumar, deepcognition.ai',
         imageurl1: './assets/ArtificialIntelligenceConference1.jpg',
         imageurl2: './assets/Tulips.jpg',
         imageurl3: './assets/Tulips.jpg',
@@ -85,10 +85,10 @@ export const RECENTS: Recentstructure[] = [
         id: 5,
         title: 'Introduction to TypeScript (Udemy) - January 13, 2018',
         description: 'Completed the online course from Udemy \'Introduction to TypeScript\'. The course covered the topics:\n'+
-        '*      How to use NPM to install TypeScript\n'+
-        '*      How to compile TypeScript\n'+
-        '*      Types, Interfaces, Classes, Inheritance and Modules\n'+
-        '*      ​Grunt - the JavaScript task runner\n'+
+        '* How to use NPM to install TypeScript\n'+
+        '* How to compile TypeScript\n'+
+        '* Types, Interfaces, Classes, Inheritance and Modules\n'+
+        '* ​Grunt - the JavaScript task runner\n'+
         'Created a simple TypeScript program to find factorial of a number: https://github.com/leejiaj/Factorial-Typescript',
         imageurl1: './assets/IntroductionTypeScriptUdemy1.jpg',
         imageurl2: './assets/Tulips.jpg',
@@ -121,13 +121,13 @@ export const RECENTS: Recentstructure[] = [
         title: 'Internet of Things Conference - September 9, 2017',
         description: 'This included Industry driven workshops and Industry talks\n'+
         'I attended the following:\n'+
-        '*      Hands-on workshop: IoT with AWS\n'+
+        '* Hands-on workshop: IoT with AWS\n'+
         'Technical & Business Use Case Talks:\n'+
-        '*      Defining the entire IoT ecosystem, Dan Schmidt, AT&T\n'+
-        '*      Real world IoT implementations, Jeff Smith, QuantumIOT\n'+
-        '*      IoT and Big Data, Peter DeNagy, Acommence Advisors\n'+
-        '*      Predictive Maintenance of WindTurbines using IoT & Big Data & Cloud - Shrinath Parikh, Fujitsu\n'+
-        '*      Connectivity issues with IoT, Ed Hightower, IEEE',
+        '* Defining the entire IoT ecosystem, Dan Schmidt, AT&T\n'+
+        '* Real world IoT implementations, Jeff Smith, QuantumIOT\n'+
+        '* IoT and Big Data, Peter DeNagy, Acommence Advisors\n'+
+        '* Predictive Maintenance of WindTurbines using IoT & Big Data & Cloud - Shrinath Parikh, Fujitsu\n'+
+        '* Connectivity issues with IoT, Ed Hightower, IEEE',
         imageurl1: './assets/InternetofThingsConference1.PNG',
         imageurl2: './assets/Tulips.jpg',
         imageurl3: './assets/Tulips.jpg',
@@ -159,14 +159,14 @@ export const RECENTS: Recentstructure[] = [
         title: 'Success in Code, Career & Life, by UTD Alum Chander Dhall - August 26, 2017',
         description: 'Welcome Workshop by Chander Dhall. There were two sessions: \n'+
         'Code with me:  \n'+
-        '*      Learn Test Driven Development\n'+
-        '*      Javascript fun\n'+
+        '* Learn Test Driven Development\n'+
+        '* Javascript fun\n'+
         '\n'+
         'The better half: Career and Life\n'+
-        '*      Understand how you get interviewed at top companies like Microsoft, Amazon, Google etc. \n'+
-        '*      Learn how to prepare for these interviews. \n'+
-        '*      Job vs Career\n'+
-        '*      My Success Secrets',
+        '* Understand how you get interviewed at top companies like Microsoft, Amazon, Google etc. \n'+
+        '* Learn how to prepare for these interviews. \n'+
+        '* Job vs Career\n'+
+        '* My Success Secrets',
         imageurl1: './assets/welcomeWorkshop.PNG',
         imageurl2: './assets/Tulips.jpg',
         imageurl3: './assets/Tulips.jpg',

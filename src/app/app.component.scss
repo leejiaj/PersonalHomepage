@@ -73,3 +73,25 @@ nav {
     }
 }
 
+@media (max-width: 450px) {
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+    .sidenav{
+        display: inline-table;
+
+    }
+
+    nav {
+        a {
+            font-size: .6em;
+            margin: .5em;
+            padding: .5em;
+        }
+    }
+    
+    .maincontent{
+        margin-left: 0;
+    }
+}

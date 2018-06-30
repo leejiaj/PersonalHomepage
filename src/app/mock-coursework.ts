@@ -8,19 +8,19 @@ export const COURSEWORKS: Courseworkstructure[] = [
         shortdescription: 'Bazaar is an E-commerce site developed for online clothes shopping',
         description: 'Bazaar is an E-commerce site developed for online clothes shopping. The site includes sections for men, women and kids. In each section there are categories for formals and casuals. For kids, categories include for girls and boys. The development work for this site is carried out through different routes namely admin, user, product, cart, reviews, purchases and categories.\n\n'+
         'The major functionalities of the site include:\n\n'+
-        '*      User signup - register a new user to the system\n'+
-        '*      User login\n'+
-        '*      Listing available products in the system\n'+
-        '*      Search and filtering of products\n'+
-        '*      Paging functionality while listing products\n'+
-        '*      Add products to cart\n'+
-        '*      Checkout and display history of purchases\n'+
-        '*      Review of products\n\n'+
+        '* User signup - register a new user to the system\n'+
+        '* User login\n'+
+        '* Listing available products in the system\n'+
+        '* Search and filtering of products\n'+
+        '* Paging functionality while listing products\n'+
+        '* Add products to cart\n'+
+        '* Checkout and display history of purchases\n'+
+        '* Review of products\n\n'+
         'Apart from these, admin users are capable of the functionalities:\n\n'+
-        '*      List all products\n'+
-        '*      Add a new product\n'+
-        '*      Delete a product\n'+
-        '*      Update a product\n'+
+        '* List all products\n'+
+        '* Add a new product\n'+
+        '* Delete a product\n'+
+        '* Update a product\n'+
         '​\n'+
         'This project was part of the Web Programming Languages coursework (final group project). Code is available in below repository.',
         githuburl: 'https://github.com/leejiaj/ecommerceapp',
@@ -40,10 +40,10 @@ export const COURSEWORKS: Courseworkstructure[] = [
         '​This python program builds a Binary decision tree classifier using the ID3 algorithm. After building the decision tree, it is checked against the validation dataset. Accuracy is calculated on training, validation and test datasets. Finally the tree is pruned on a pruning factor so that the accuracy is improved.\n'+
         'Pandas is used for reading/pre-processing data.\n\n'+
         'Program reads four arguments from the command line:\n'+
-        '*      Path of the Training dataset\n'+
-        '*      Path of the Validation dataset\n'+
-        '*      Path of the Test dataset\n'+
-        '*      Pruning Factor\n'+
+        '* Path of the Training dataset\n'+
+        '* Path of the Validation dataset\n'+
+        '* Path of the Test dataset\n'+
+        '* Pruning Factor\n'+
         '\n​'+
         'This was part of the Machine Learning coursework.',
         githuburl: 'https://github.com/leejiaj/ID3-Decision-Tree',
@@ -62,14 +62,14 @@ export const COURSEWORKS: Courseworkstructure[] = [
         '\n'+
         'This python program implements the backpropagation algorithm for Neural Networks.\n\nThere are two steps:\n\n'+
         '1. Pre-processing the dataset. The two arguments for the program:\n'+
-        '*      input path of the raw dataset\n'+
-        '*      output path of the pre-processed dataset\n\n'+
+        '* input path of the raw dataset\n'+
+        '* output path of the pre-processed dataset\n\n'+
         '2. Training a Neural Network - Uses the processed dataset to build a neural network. The input parameters to the neural net are:\n'+
-        '*      input dataset – complete path of the post-processed input dataset\n'+
-        '*      training percent – percentage of the dataset to be used for training\n'+
-        '*      maximum_iterations – Maximum number of iterations that the algorithm will run. This parameter is used so that the program terminates in a reasonable time.\n'+
-        '*      number of hidden layers\n'+
-        '*      number of neurons in each hidden layerPandas is used for reading/pre-processing data.\n'+
+        '* input dataset – complete path of the post-processed input dataset\n'+
+        '* training percent – percentage of the dataset to be used for training\n'+
+        '* maximum_iterations – Maximum number of iterations that the algorithm will run. This parameter is used so that the program terminates in a reasonable time.\n'+
+        '* number of hidden layers\n'+
+        '* number of neurons in each hidden layerPandas is used for reading/pre-processing data.\n'+
         '\n'+
         'This was part of the Machine Learning coursework.',
         githuburl: 'https://github.com/leejiaj/Backpropagation-Algorithm-Neural-Networks',
@@ -106,13 +106,13 @@ export const COURSEWORKS: Courseworkstructure[] = [
         description: 'The goal of this project is to contribute to the PIT mutation testing tool to implement more mutation operators. The description of the original set of mutation operators implemented in PIT is available at: http://pitest.org/quickstart/mutators/. However, it does not include some traditional mutation operators.\n'+
         '\nPhase one of this project included:\n'+
         'Augmenting the PIT tool to implement the following mutation operators and then evaluating the augmented PIT tool on 5 real-world projects from GitHub (with >1000 lines of code and > 50 tests).\n'+
-        '*      AOD: Replaces an arithmetic expression by each one of the operands. For example a + b ⇒ a and a + b ⇒ b.\n'+
-        '*      ROR: Replaces the relational operators with each of the other ones. For example: < ⇒ >=, < ⇒ <= or < ⇒!=\n'+
-        '*      AOR: Replaces an arithmetic expression by each of the other ones. For example a + b ⇒ a ∗b\n'+
+        '* AOD: Replaces an arithmetic expression by each one of the operands. For example a + b ⇒ a and a + b ⇒ b.\n'+
+        '* ROR: Replaces the relational operators with each of the other ones. For example: < ⇒ >=, < ⇒ <= or < ⇒!=\n'+
+        '* AOR: Replaces an arithmetic expression by each of the other ones. For example a + b ⇒ a ∗b\n'+
         '\nWe, a team of three has completed the phase one of this project.  Initial phase helped us to get an understanding of:\n'+
-        '*      ASM bytecode engineering framework\n'+
-        '*      JavaAgent on-the-fly code instrumentation\n'+
-        '*      Maven build system\n'+
+        '* ASM bytecode engineering framework\n'+
+        '* JavaAgent on-the-fly code instrumentation\n'+
+        '* Maven build system\n'+
         '\n'+
         'This was part of Software Validation, Verification and Testing coursework.',
         githuburl: 'https://github.com/leejiaj/pitest',
@@ -128,10 +128,10 @@ export const COURSEWORKS: Courseworkstructure[] = [
         coursename: 'Database Design',
         shortdescription: 'Web development project using AngularJS, Bootstrap, HTML, CSS, WampServer, PHP and MySQL',
         description: 'Web development project using AngularJS, Bootstrap, HTML, CSS, WampServer, PHP and MySQL. Functionalities of the Library Management System includes\n\n'+
-        '*      Book Search and Checkout\n'+
-        '*      Check in Book\n'+
-        '*      Add New Borrower\n'+
-        '*      Handle Fines\n\n'+
+        '* Book Search and Checkout\n'+
+        '* Check in Book\n'+
+        '* Add New Borrower\n'+
+        '* Handle Fines\n\n'+
         'This project is done as part of Database Design coursework.',
         githuburl: 'https://github.com/leejiaj/LibraryManagementSystem',
         imageurl1: './assets/LibraryManagementSystem1.png',
