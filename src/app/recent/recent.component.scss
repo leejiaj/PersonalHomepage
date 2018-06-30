@@ -1,13 +1,4 @@
-// .recentdescription {
-//     margin: 10px 0 0 20px;
-//     padding: 10px 0 20px 0;
-//     display: block; 
-//     line-height: 2em;
-//     // border: 2px solid #50faab;
-//     // border-radius: 34px;
-//   }
-
-  section {
+section {
     margin: 10px 0 0 0;
     padding: 10px;
 }
@@ -15,12 +6,6 @@
 ul li {
     list-style-type: none;
 }
-
-
-// ul li:nth-child(even) > div{
-//     background-color: #80f8a8;
-// }
-
 
 .thumbnail{
   background-color: #e1fdff;
@@ -36,7 +21,6 @@ ul li {
 
 
 img {
-  // display: inline;
   width: 20%;
   margin: 0 !important;
 }
@@ -45,9 +29,3 @@ img {
   white-space: pre-wrap;
   text-align: justify; 
 }
-
-// @media (max-width:800px){
-//   section{
-//     width: 100%;  
-//   }
-// }

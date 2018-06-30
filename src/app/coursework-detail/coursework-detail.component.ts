@@ -18,10 +18,7 @@ export class CourseworkDetailComponent implements OnInit {
 
   ngOnInit() {
     this.route.params.subscribe(params => {
-      //console.log(params) //log the entire params object
-      //console.log(params['id']) //log the value of id
       this.courseworkid = +this.route.snapshot.paramMap.get('id');
-      //console.log(this.courseworkid);
       this.getCoursework(this.courseworkid);
     });
   }
@@ -29,9 +26,6 @@ export class CourseworkDetailComponent implements OnInit {
   getCoursework(id: number): void{
     this.courseworkService.getCoursework(id)
     .subscribe(coursework => this.coursework = coursework);
-    //console.log(id);
-    //console.log(this.coursework.id);
-    //console.log(this.coursework.coursename);
   }
 
 }

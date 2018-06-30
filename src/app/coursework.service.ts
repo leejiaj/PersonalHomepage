@@ -15,11 +15,6 @@ export class CourseworkService {
   }
 
   getCoursework(id: number): Observable<Courseworkstructure>{
-    //return of(COURSEWORKS[id]);
-    //console.log(COURSEWORKS.filter(x => x.id === id)[0]);
-    //console.log(COURSEWORKS[0]);
-    //console.log(id);
-    //console.log("hello");
     return of(COURSEWORKS.filter(x => x.id === id)[0]);
   }
 }

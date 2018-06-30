@@ -15,11 +15,6 @@ export class RecentService {
   }
 
   getRecent(id: number): Observable<Recentstructure>{
-    //return of(COURSEWORKS[id]);
-    //console.log(COURSEWORKS.filter(x => x.id === id)[0]);
-    //console.log(COURSEWORKS[0]);
-    //console.log(id);
-    //console.log("hello");
     return of(RECENTS.filter(x => x.id === id)[0]);
   }
 

@@ -11,19 +11,12 @@ import { Courseworkstructure } from '../courseworkstructure';
 export class CourseworkComponent implements OnInit {
 
   courseworks : Courseworkstructure[];  
-
-  // testMethod(){
-  //   console.log("hello");
-  //   console.log(this.courseworks);
-  // }
   
 
   constructor(private courseworkService : CourseworkService) {
-    // this.testMethod();
    }
 
   ngOnInit() {
-    // this.testMethod();
     this.getCourseworks();
   }
 

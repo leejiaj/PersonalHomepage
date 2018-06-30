@@ -1,8 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://unpkg.com/bootstrap@3.3.7/dist/css/bootstrap.min.css');
 
-// $font-stack:    Verdana, Georgia, serif, Helvetica, sans-serif;
-// $font-stack: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 $font-stack: 'Comic Sans MS','Chiller',Verdana;
 $primary-color: rgb(0, 0, 0);
 $color_one: #1fe6a4;
@@ -16,28 +14,10 @@ body {
   font: 100% $font-stack !important;
   color: rgb(255, 255, 255);
   font-size: 15px !important;
-  // background-color: $primary-color;
   background: linear-gradient(to bottom right, #28cb28,#2838c8);
   background-attachment: fixed;
-  // font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  // font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  // font-family: Georgia, 'Lucida Grande', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  // font-family:'Lucida Handwriting';
-  // font-family: 'Chiller';
 }
 
-
-
-
-// section {
-//   margin: 20px;
-//   padding: 20px;
-//   display: block; 
-//   background-color:#151414; 
-//   line-height: 2em;
-//   border: 2px solid $color_one;
-//   border-radius: 34px;
-// }
 
 
 
@@ -49,13 +29,6 @@ body {
                 0 0 60px $color_one;
 }
 
-// .neon_box{
-//   box-shadow:   0 0 5px $color_one,
-//                 inset 0 0 5px $color_two,
-//                 0 0 20px $color_one,
-//                 inset 0 0 20px $color_one;
-
-// }
 
 a.logo span{
   display: none;
@@ -65,8 +38,5 @@ a.logo{
   display:inline-block;
   width: 200px;
   height: 40px;
-  // background: url(assets/logo.png) no-repeat 0 0;
-  // background-size: contain;
   position: fixed; 
-  // top: 30px; left: 45px;
 }
