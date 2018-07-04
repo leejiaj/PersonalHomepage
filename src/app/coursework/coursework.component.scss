@@ -57,3 +57,10 @@ img {
     border: 1px white solid;
     background-color: #000;
 }
+
+@media (max-width: 768px) {
+    img {
+        width: 100%;
+        margin: 0 !important;
+    }
+}
