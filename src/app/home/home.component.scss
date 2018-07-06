@@ -30,3 +30,13 @@ $color_two: #fff;
     position: relative;
     border: 0px;
   }
+
+  @media (max-width: 768px) {
+    main {
+        text-align: left;
+    }
+    p{
+      background-color: #78f0e0;
+      padding: 1em;
+    }
+}
