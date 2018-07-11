@@ -147,7 +147,7 @@ export const RECENTS: Recentstructure[] = [
     {
         id: 5,
         title: 'Problem Solving session with Dr. Balaji Raghavachari - September 2, 2017',
-        description: 'Finetuning problem solving skills for tough CS problems. Good knowledge of Data Structures & various types of Algorithms are required for solving these problems. Problem Set is at http://www.utdallas.edu/~rbk/teach/2017f/Problem-Session-2017-08.pdf',
+        description: 'Finetuning problem solving skills for tough CS problems. Good knowledge of Data Structures & various types of Algorithms are required for solving these problems.',
         imageurl1: './assets/ProblemSolvingSession1.PNG',
         imageurl2: './assets/Tulips.jpg',
         imageurl3: './assets/Tulips.jpg',
