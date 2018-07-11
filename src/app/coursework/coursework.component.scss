@@ -26,6 +26,9 @@ ul li {
     list-style-type: none;
 }
 
+ul{
+    padding-left: 0;
+}
 
 img {
     width: 20%;
@@ -33,19 +36,18 @@ img {
 }
 
 .thumbnail{
-    background-color: #9ef2f5;
     transition: background-color 0.25s ease;
     margin: 20px;
     padding: 20px;
     display: block; 
     line-height: 2em;
-    border: 2px solid #9ef2f5;
+    border: 2px solid #000000;
     border-radius: 34px;
     color: #000;
 }
 
 .thumbnail:hover{
-    background-color: #46b4b8 !important;
+    background-color: #bceef0 !important;
 }
 
 .shortdesc{

@@ -8,15 +8,16 @@ $color_two: #fff;
 
 html{
   height: 100%;
+  width: 100%;
 }
 
 body {
   font: 100% $font-stack !important;
   color: rgb(255, 255, 255);
   font-size: 15px !important;
-  background: linear-gradient(to bottom right, #28cb28,#2838c8);
   background-attachment: fixed;
-	text-align: justify;
+  text-align: justify;
+  width: 100%;
 }
 
 

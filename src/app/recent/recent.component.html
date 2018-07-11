@@ -2,13 +2,13 @@
     <ul>
       <li *ngFor="let recentstructure of recents">
         <div class="thumbnail">
-          <h4> {{recentstructure.title}}</h4>
-            <img src={{recentstructure.imageurl1}} alt="recentimage">  
-            <div class="caption">
-              <p>{{recentstructure.title}}</p>
-            </div>  
-            <p class="desc">{{recentstructure.description}}</p>
+          <h4>{{recentstructure.title}}</h4>
+          <a class="recentclass"> 
+            <p class="shortdesc">{{recentstructure.description}}</p>
+          </a>
         </div>
       </li>
     </ul>
 </section>
+    
+    
