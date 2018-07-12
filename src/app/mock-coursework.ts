@@ -32,7 +32,7 @@ export const COURSEWORKS: Courseworkstructure[] = [
     },
     {
         id: 9,
-        title: 'Real time sentiment analysis of particular hashtags in Twitter data',
+        title: 'Real time sentiment analysis of hashtags in Twitter data',
         coursename: 'Big Data Management and Analytics',
         shortdescription: 'Framework using Apache Spark Streaming, ElasticSearch and Kibana',
         description: 'We were required to implement the framework that performs sentiment analysis of particular hashtags in twitter data in real time using Apache Spark Streaming, ElasticSearch and Kibana.\n\n'+
