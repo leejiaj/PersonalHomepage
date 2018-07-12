@@ -31,6 +31,78 @@ export const COURSEWORKS: Courseworkstructure[] = [
         imageurl5: './assets/Tulips.jpg'
     },
     {
+        id: 9,
+        title: 'Real time sentiment analysis of particular hashtags in Twitter data',
+        coursename: 'Big Data Management and Analytics',
+        shortdescription: 'Framework using Apache Spark Streaming, ElasticSearch and Kibana',
+        description: 'We were required to implement the framework that performs sentiment analysis of particular hashtags in twitter data in real time using Apache Spark Streaming, ElasticSearch and Kibana.\n\n'+
+        'For example, we want to do the sentiment analysis for all the tweets for #guncontrolnow and show their statistics(e.g.,positive, neutral, negative) in Kibana.\n\n'+
+        'The steps for this includes,\n'+
+        '* Get tweets via scrapper (stream.py)\n'+
+        '* Write a sentiment analysis program to predict sentiment of the tweet message\n'+
+        '* Visualize the findings using ElasticSearch/Kibana\n'+
+        '\n'+
+        'Scrapper -> Sentiment Analyzer/Common topic fnder -> Visualizer(ElasticSearch/Kibana)\n'+
+        '\n'+
+        '1) Scrapper\n'+
+        'The scrapper collects tweets and pre-process them for analytics. It is a standalone program written in Python and performs the following:\n'+
+        '1. Collect tweets in real-time with particular hashtag. For example, we will collect all tweets with #guncontrolnow.\n'+
+        '2. After getting tweets, we filter them by removing emoji symbols and special characters and discard any noisy tweet that do not belong to #guncontrolnow. The returned tweet contains both the meta data (e.g., location) and text contents. We keep the text content and the location meta data.\n'+
+        '3. After filtering, we convert the location meta data of each tweet back to its geolocation info by calling google geo API and send the text and geolocation info to spark streaming.\n'+
+        '4. The scrapper program runs infinitely and takes hash tags as input parameters while running.\n\n'+
+        
+        '2) Sentiment Analyzer\n'+
+        'Sentiment Analyzer determines whether a piece of tweet is positive, neutral or negative. The sentiment analyzer I used is Stanford CoreNLP.\n'+
+        'For each hashtag, we perform sentiment analysis using Stanford CoreNLP and output sentiment and geolocation of each tweet to some external bases (elasticsearch) and send them to kibana for visualization.\n\n'+
+        
+        '3) Visualizer\n'+
+        'In this part, we do the following. Install ElasticSearch and Kibana. Create an index for visualization. Create a data table to show the sentiment of each tweet, i.e., "sentiment | tweet". Then, create a number of coordinate maps to show the geolocation distribution of tweets. More specifically, first coordinate map will show the geolocation distribution of all tweets, regardless of sentiment related to #guncontrolnow. Second and Third coordinate map will show geolocation distributions of positive tweets and negative tweets, respectively. When we send data from spark to ElasticSearch, we added a time stamp. In the dashboard, the refresh time is set to 2 min as an example.\n\n'+
+        
+        'Tools, Languages and Techniques used for this coursework:\n'+
+        'Twitter(Stream source), pyspark, google geo api, Stanford CoreNLP, elasticsearch, kibana (data table and coordinate maps)\n',
+        githuburl: '',
+        imageurl1: './assets/ECommerceApp1.png',
+        imageurl2: './assets/Tulips.jpg',
+        imageurl3: './assets/Tulips.jpg',
+        imageurl4: './assets/Tulips.jpg',
+        imageurl5: './assets/Tulips.jpg'
+    },
+    {
+        id: 10,
+        title: 'Programming Project - Dynamic Programming',
+        coursename: 'Design and Analysis of Computer Algorithms',
+        shortdescription: 'Recurrence and Dynamic Program for the problem of optimizing the net profit',
+        description: 'Recurrence and Dynamic Program for the problem of optimizing the net profit. The scenario is given below. This programming project is implemented in Java.\n\n'+
+        'Scenario: A jeweller has G units of gold, and has signed contracts to make n jewellery items, j1..jn. The following are the conditions, i = 1..n:\n\n'+
+        
+        '* Item ji requires wi units of gold to make, and generates a profit of pi per unit of ji. The agreement is to supply a minimum quantity of ni, and a maximum quantity of xi.\n'+
+        '* Additional quantities of ji beyond xi cannot be sold and do not generate any profit.\n'+
+        '* Not meeting the minimum quantities promised in the contracts triggers penalty fines. For ji, if the quantity supplied (qi) is below ni, then the jeweller has to pay a fine of fi for each unit below the minimum, with a cap of total fine of ci, i.e., when qi < ni, fine for ji is calculated as min(fi * (ni − qi), ci).\n\n'+
+        
+        'Write a recurrence for the problem of optimizing the net profit (total profit generated by items supplied minus the fines paid), and the number of different optimal solutions that are possible. Prove the correctness of these recurrences. Write a dynamic program corresponding to the recurrences. Write a program that implements the DP.\n\n'+
+        
+        'Input specification: If no command line parameter is supplied, or the first parameter is “−”, the input is read from the console. Otherwise, the first parameter is used as the name of a file that has the input. The first two numbers in the input are G and n. The next n lines of the input have 7 integers each: i,wi, pi, ni, xi, fi, ci. If there are additional lines in the input, ignore them.\n\n'+
+        
+        'Output specification: Normally the program prints just 2 numbers in the output: maximum net profit, and the number of optimal solutions. If there is a second command line parameter, whose value is greater than 0, then the list of distinct optimal solutions are enumerated, one per line.\n'+
+        '\n'+
+        'Sample input and output:\n\n'+
+        '20 2\n'+
+        '1 2 10 8 10 2 2\n'+
+        '2 2 10 8 10 2 4\n'+
+        '# Output:\n'+
+        '98 3\n'+
+        '# List of optimal solutions:\n'+
+        '2 8\n'+
+        '1 9\n'+
+        '0 10\n',
+        githuburl: '',
+        imageurl1: './assets/ECommerceApp1.png',
+        imageurl2: './assets/Tulips.jpg',
+        imageurl3: './assets/Tulips.jpg',
+        imageurl4: './assets/Tulips.jpg',
+        imageurl5: './assets/Tulips.jpg'
+    },
+    {
         id: 2,
         title: 'ID3 Decision Tree',
         coursename: 'Machine Learning',
